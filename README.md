@@ -17,4 +17,4 @@ Anime fans can search underrated anime as well as manga. public API like ( # jik
 # Search
 ![Screenshot from 2024-10-16 12-49-42](https://github.com/user-attachments/assets/bfcd8087-bbfa-470f-888e-bd32397d85ea)
 # Video
-[Screencast from 2024-10-16 12-44-24.webm](https://github.com/user-attachments/assets/14703a27-3133-4295-b718-8a1e939d6127)
+[Screencast from 2024-10-16 13-26-17.webm](https://github.com/user-attachments/assets/edf40fde-5291-4ea0-ae74-7a439e384eac)
