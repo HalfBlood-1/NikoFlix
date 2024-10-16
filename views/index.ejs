@@ -1,0 +1,30 @@
+<%- include("header.ejs") %>
+<body class="do">
+   
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">NekoFlix</h1>
+            <br><br>
+            <p class="lead">Step into a time machine with NekoFlix, where we celebrate the golden age of anime! Relive the classics, revisit iconic scenes, and explore the history of anime that shaped the industry we love today. From the retro vibes of the '80s to timeless '90s favorites, we’ve got you covered."<br><br>
+                [サイト名]へようこそ！アニメ好きが集まる場所！オタク歴が長い方も、アニメを始めたばかりの方も
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Top Anime</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Top Manga</button> -->
+              <form action="" method="get">
+                <input id="get" type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" value="Underrated Anime" formaction="/get-anime">
+                <input id="get" type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" value="Underrated Manga" formaction="/get-manga">
+
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="images/dfd.png" alt="" width="620" height="780">
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
+<%- include("footer.ejs") %>
